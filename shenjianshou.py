@@ -5,7 +5,7 @@ import requests
 def upload(domain, title, content, cid):
     url = f'http://{domain}/collect/ApiUserHuochetou/articleAdd'
     data = {
-        'password': 'lb976gp06vju',
+        'password': '存放数据发布密钥',
         'title': title,
         'content': content,
         'cid': cid
